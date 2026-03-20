@@ -37,4 +37,20 @@ public class Book {
             System.out.println("You can't return available book");
         }
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getPageCount() {
+        return pageCount;
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
 }
